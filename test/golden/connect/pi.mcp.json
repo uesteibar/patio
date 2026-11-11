@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "patio": {
+      "command": "/usr/local/bin/patio",
+      "args": [
+        "mcp",
+        "--as",
+        "unai-orbit"
+      ]
+    }
+  }
+}

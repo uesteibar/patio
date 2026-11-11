@@ -1,0 +1,8 @@
+model = "gpt-6"
+
+[mcp_servers.docs]
+url = "https://example.com/mcp"
+
+[mcp_servers.patio]
+command = "/usr/local/bin/patio"
+args = ["mcp", "--as", "unai-orbit"]

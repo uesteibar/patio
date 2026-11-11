@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "sentry": {
+      "type": "http",
+      "url": "https://mcp.sentry.dev/mcp"
+    },
+    "patio": {
+      "type": "stdio",
+      "command": "/usr/local/bin/patio",
+      "args": [
+        "mcp",
+        "--as",
+        "unai-orbit"
+      ],
+      "env": {}
+    }
+  }
+}

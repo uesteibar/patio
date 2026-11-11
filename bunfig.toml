@@ -1,0 +1,4 @@
+# Bun loads .env automatically; this checkout's .env holds real keys (copied by `just worktree`). Tests, scripts and
+# the patio processes they start must never see them, so nothing loads it. Live recipes read the keys they need
+# explicitly (scripts/lib/secrets.ts). test/dev/env-isolation.test.ts checks it.
+env = false
